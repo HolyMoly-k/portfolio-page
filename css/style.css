@@ -204,11 +204,14 @@
     width: 200px;
 }
 
+.my_portfolio {
+    padding-top: 144px;
+}
+
 .my_portfolio-title {
     font-weight: 700;
     font-size: 48px;
     color: #fff;
-    margin-top: 144px;
 }
 
 .my_portfolio-text {
