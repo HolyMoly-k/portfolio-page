@@ -203,3 +203,63 @@
     margin-top: 8px;
     width: 200px;
 }
+
+.my_portfolio-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    margin-top: 144px;
+}
+
+.my_portfolio-text {
+    width: 576px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.my_portfolio-list {
+    display: flex;
+    margin-top: 64px;
+    gap: 105px;
+}
+
+.my_portfolio-list li {
+    border-radius: 16px;
+    background-color: white;
+    width: 330px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.my_portfolio-list-wrapper {
+    padding: 24px 16px;
+}
+
+.my_portfolio-list-text {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+    color: #556070;
+    margin-top: 8px;
+}
+
+.my_portfolio-list li a {
+    padding: 8px 24px;
+    display: flex;
+    background-color: #27ae60;
+    margin-top: 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: justify;
+    color: #fff;
+    width: 117px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.my_portfolio-list li a:hover {
+    background-color: #1a723f;
+}
