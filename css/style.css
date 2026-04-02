@@ -341,7 +341,6 @@
 .contacts-wrapper {
     width: 441px;
     margin-left: 80px;
-    position: relative;
 }
 
 .contacts-title {
@@ -352,7 +351,7 @@
 }
 
 .contacts-text {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
     margin-top: 16px;
     text-align: center;
@@ -360,19 +359,62 @@
 }
 
 .contacts-list {
+    line-height: 48px;
     margin-top: 32px;
+    margin-left: 105px;
 }
 
-.contacts-list-wrapper {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -0%);
-}
-
-.contacts-list li {
+.contacts-list li a {
     font-weight: 400;
-    margin-top: 24px;
     font-size: 20px;
     color: #fff;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
 }
 
+.contacts-list-phone {
+    background-image: url(../img/phone.png);
+}
+
+.contacts-list-email {
+    background-image: url(../img/email.png);
+}
+
+.contacts-list-adress {
+    background-image: url(../img/adress.png);
+}
+
+.footer {
+    padding: 80px 0px 32px 0px;
+    
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-list div {
+    background-color: #27ae60;
+    padding: 8px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-company-title {
+    font-weight: 300;
+    font-size: 14px;
+    color: #e5e5ea;
+}
+
+.footer-list a:hover div {
+    transform: scale(1.2);
+}
