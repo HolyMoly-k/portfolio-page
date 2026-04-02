@@ -3,6 +3,11 @@
 
 .header {
     padding: 32px 0;
+    background-color: #27ae60;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #124e2b;
 }
 
 
@@ -27,6 +32,22 @@
     font-size: 18px;
     color: white;
     transition: color 0.4s ease-out;
+}
+
+.navigation__link::before {
+    content: "";
+    margin-right: 8px;
+    display: inline-block;
+    background-color: #1c7742;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navigation__link:hover::before {
+    transform: scale(1);
 }
 
 .navigation__link:hover {
@@ -97,6 +118,39 @@
     border-radius: 50%;
     border: 3px solid lightgreen;
     padding: 20px;
+}
+
+.hero_image-wrapper {
+    position: relative;
+}
+
+.hero_image-wrapper::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: #34c759;
+    border-radius: 50%;
+    border: 2px solid white;
+    right: 90px;
+    bottom: 20px;
+}
+
+.hero_image-wrapper::before {
+    content: "#open_to_work 👨‍💻";
+    position: absolute;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 160px;
+    height: 56px;
+    background-color: #ebebeb;
+    bottom: 70px;
 }
 
 .about_title {
@@ -173,7 +227,7 @@
     display: flex;
     margin: 0 auto;
     margin-top: 64px;
-    gap: 140px;
+    justify-content: space-around;
 }
 
 .about_list li {
@@ -229,11 +283,22 @@
     gap: 105px;
 }
 
+.my_portfolio-image-wrapper {
+    position: relative;
+}
+
+.my_portfolio-list-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .my_portfolio-list li {
     border-radius: 16px;
     background-color: white;
     width: 330px;
-    height: 400px;
+    height: 348px;
     overflow: hidden;
 }
 
@@ -267,3 +332,46 @@
 .my_portfolio-list li a:hover {
     background-color: #1a723f;
 }
+
+.contacts {
+    padding-top: 144px;
+}
+
+.contacts-wrapper {
+    width: 441px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+.contacts-text {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.contacts-list {
+    margin-top: 32px;
+}
+
+.contacts-list-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.contacts-list li {
+    font-weight: 400;
+    margin-top: 24px;
+    font-size: 20px;
+    color: #fff;
+}
+
