@@ -418,3 +418,25 @@
 .footer-list a:hover div {
     transform: scale(1.2);
 }
+
+.arrow-up {
+    position: fixed;
+    display: inline-block;
+    background-color: #1a723f;
+    border-radius: 50%;
+    padding: 5px;
+    z-index: 9999;
+    bottom: 50px;
+    right: 100px;
+    transition: background-color 0.3s ease-in-out;
+    transition: transform 0.3s linear;
+}
+
+.image-arrow {
+    transform: rotate(180deg);
+}
+
+.arrow-up:hover {
+    background-color: #27ae60;
+    transform: scale(1.1);
+}
