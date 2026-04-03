@@ -386,6 +386,18 @@
     background-image: url(../img/adress.png);
 }
 
+.contacts-list-phone:hover {
+    color: gray;
+}
+
+.contacts-list-email:hover {
+    color: gray;
+}
+
+.contacts-list-adress:hover {
+    color: gray;
+}
+
 .footer {
     padding: 80px 0px 32px 0px;
     
