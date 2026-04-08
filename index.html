@@ -165,14 +165,26 @@
         </section>
         <section class="contacts" id="contacts">
           <div class="container">
+            <h2 class="contacts-title">CONTACTS</h2>
+            <p class="contacts-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dolores reiciendis aspernatur odit autem!</p>
             <div class="contacts-wrapper">
-              <h2 class="contacts-title">CONTACTS</h2>
-              <p class="contacts-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa dolores reiciendis aspernatur odit autem, dolore temporibus et optio!</p>
               <ul class="contacts-list">
-                <li><a href="#contacts" class="contacts-list-phone">067 123 45 67</a></li>
-                <li><a href="#contacts" class="contacts-list-email">johndoe@gmail.com</a></li>
-                <li><a href="#contacts" class="contacts-list-adress">Ukraine, Kyiv</a></li>
+                <li><a href="tel:+380671234567" class="contacts-list-phone">067 123 45 67</a></li>
+                <li><a href="mailto:johndoe@gmail.com" class="contacts-list-email">johndoe@gmail.com</a></li>
+                <li><a href="https://maps.app.goo.gl/x6sCzGv4nbLfkyUbA" class="contacts-list-adress" target="_blank">Ukraine, Kyiv</a></li>
               </ul>
+              <form action="" class="contacts-form">
+                <div>
+                  <input name="contacts-form-name" type="text" placeholder="Name">
+                  <input name="contacts-form-lastname" type="text" placeholder="Last name">
+                </div>
+                <div>
+                  <input type="email" name="contacts-form-email" id="email" placeholder="Email">
+                  <input type="tel" name="contacts-form-tel" id="tel" placeholder="Phone number">
+                </div>
+                <textarea class="contacts-form-message" placeholder="Message"></textarea>
+                <button class="contacts-form-button" type="submit">Submit now</button>
+              </form>
             </div>
           </div>
         </section>
