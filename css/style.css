@@ -71,6 +71,18 @@
     font-size: 48px;
     text-transform: uppercase;
     color: #fff;
+    animation: tracking-in-expand 0.7s ease;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
 }
 
 .hero_description {
@@ -79,6 +91,7 @@
     font-size: 18px;
     color: #828282;
     width: 560px;
+    animation: tracking-in-expand 0.7s ease 0.1s;
 }
 
 .hero_actions {
@@ -100,6 +113,38 @@
     transition: background-color 0.4s ease-out;
 }
 
+.downoload-cv {
+    animation: vibrate-1 1.5s linear infinite both;
+}
+
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+    box-shadow: 0 0 4px 4px #27ae60;
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  60% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  80% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
 .hero_actions__link-secondary {
     background-color: transparent;
     border: 1px solid white;
@@ -107,6 +152,7 @@
 
 .hero_actions__link:hover {
     background-color: #1a723f;
+    animation: none;
 }
 
 .hero_wrapper {
@@ -136,6 +182,29 @@
     border: 2px solid white;
     right: 90px;
     bottom: 20px;
+    animation: ball-animation 2s ease-in-out 0s infinite alternate running;
+}
+
+@keyframes ball-animation {
+    0% {
+        box-shadow: 0 0 4px 3px #2db44f;
+        transform: scale(1);
+    }
+
+    33% {
+        box-shadow: 0 0 4px 6px #41e46a;
+        transform: scale(1.3);
+    }
+
+    66% {
+        box-shadow: 0 0 4px 3px #2db44f;
+        transform: scale(1);
+    }
+    
+    100% {
+        box-shadow: 0 0 4px 3px #2db44f;
+        transform: scale(1);
+    }
 }
 
 .hero_image-wrapper::before {
