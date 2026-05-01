@@ -1,0 +1,242 @@
+@import '../utils/variables';
+
+.about_title {
+    font-weight: 700;
+    /* font-size: 48px; */
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (min-width: 1240px) {
+    .about_title {
+        font-size: 48px;
+    }
+}
+
+.about_text_top {
+    margin: 0 auto;
+    margin-top: 16px;
+    width: 200px;
+    text-align: center;
+    font-weight: 400;
+    /* font-size: 18px; */
+    font-size: 14px;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .about_text_top {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .about_text_top {
+        width: 576px;
+        font-size: 18px;
+    }
+}
+
+
+.about_text_strong {
+    font-weight: 600;
+    /* font-size: 18px; */
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+}
+
+.about_text_bot {
+    /* margin-top: 32px; */
+    margin-top: 12px;
+    font-weight: 400;
+    /* font-size: 18px; */
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .about_text_bot, .about_text_strong {
+        width: 300px;
+    }
+
+    .about_text_bot {
+        margin-top: 22px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .about_text_bot, .about_text_strong {
+        width: 550px;
+        font-size: 18px;
+    }
+}
+
+
+.about {
+    padding-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding-top: 42px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .about {
+        padding-top: 72px;
+    }
+}
+
+.about_wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .about_wrapper {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+
+
+.about_image {
+    border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .about_image {
+        width: 360px;
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .about_image {
+        width: 560px;
+        height: 396px;
+    }
+}
+
+.about_inner {
+    margin-top: 15px;
+    /* margin-left: 80px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .about_inner {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .about_inner {
+        margin-left: 80px;
+    }
+}
+
+.about_button {
+    display: block;
+    width: 143px;
+    text-align: center;
+    /* margin-top: 56px;    */
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    padding: 12px 27px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid white;
+    transition: background-color 0.4s ease-out;
+}
+
+@media screen and (min-width: 1240px) {
+    .about_button {
+        margin-top: 56px;
+    }
+}
+
+.about_button:hover {
+    background-color: #1a723f;
+}
+
+.about_list {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 64px;
+    justify-content: space-around;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.about_list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.about_list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #212121;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (min-width: 1240px) {
+    .about_list div {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.about_list li img {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1240px) {
+    .about_list li img {
+        width: 72px;
+        height: 72px;
+    }
+}
+
+.about_list li h3 {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1240px) {
+    .about_list li h3 {
+        font-size: 18px;
+    }
+}
+
+.about_list li p {
+    margin-top: 8px;
+    width: 200px;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 1240px) {
+    .about_list li p {
+        font-size: 16px;
+    }
+}

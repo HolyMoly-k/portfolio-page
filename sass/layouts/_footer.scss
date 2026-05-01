@@ -1,0 +1,32 @@
+.footer {
+    padding: 80px 0px 32px 0px;
+    
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-list div {
+    background-color: #27ae60;
+    padding: 8px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-company-title {
+    font-weight: 300;
+    font-size: 14px;
+    color: #e5e5ea;
+}
+
+.footer-list a:hover div {
+    transform: scale(1.2);
+}

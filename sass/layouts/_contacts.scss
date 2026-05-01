@@ -1,0 +1,128 @@
+.contacts {
+    padding-top: 144px;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+.contacts-text {
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    width: 441px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.contacts-list {
+    line-height: 48px;
+    margin-top: 32px;
+    margin-left: 105px;
+}
+
+.contacts-list li a {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+}
+
+.contacts-list-phone {
+    background-image: url(../img/phone.png);
+}
+
+.contacts-list-email {
+    background-image: url(../img/email.png);
+}
+
+.contacts-list-adress {
+    background-image: url(../img/adress.png);
+}
+
+.contacts-list-phone:hover {
+    color: gray;
+}
+
+.contacts-list-email:hover {
+    color: gray;
+}
+
+.contacts-list-adress:hover {
+    color: gray;
+}
+
+.contacts-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contacts-form input {
+    font-weight: 700;
+    font-size: 14px;
+    background: none;
+    color: rgb(212, 212, 212);
+    border: none;
+    border-bottom: 2px solid #4f4f4f;
+    width: 240px;
+    margin-right: 32px;
+    margin-top: 38px;
+    padding: 5px;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.contacts-form input:focus {
+    outline: none;
+    border-bottom: 2px solid #27ae60;
+}
+
+.contacts-form-message {
+    font-weight: 700;
+    font-size: 14px;
+    background: none;
+    color: rgb(212, 212, 212);
+    border-radius: 7px;
+    width: 512px;
+    height: 96px;
+    padding: 8px 10px;
+    margin-top: 38px;
+    transition: border 0.3s ease-in-out;
+}
+
+.contacts-form-message:focus {
+    outline: none;
+    border: 1px solid #27ae60;
+}
+
+.contacts-form-button {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    background: #27ae60;
+    margin: 0 auto;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.contacts-form-button:hover {
+    cursor: pointer;
+    background-color: #1a723f;
+}
